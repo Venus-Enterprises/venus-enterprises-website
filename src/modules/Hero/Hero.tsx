@@ -195,9 +195,9 @@ export default function Hero() {
                   </div>
                 </div>
 
-                <button className={styles.bigCta} type="button">
+                <Link href="/contact-us" className={styles.bigCta}>
                   Get Best Quote
-                </button>
+                </Link>
               </div>
             ) : null}
           </div>

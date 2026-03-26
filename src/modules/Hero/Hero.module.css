@@ -326,6 +326,10 @@
   font-size: 13px;
   border: 0;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 /* Reels Style Vertical Slider */
