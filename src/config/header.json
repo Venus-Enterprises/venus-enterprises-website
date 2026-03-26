@@ -1,0 +1,17 @@
+{
+  "logo": {
+    "src": "/media/header/logo.png",
+    "alt": "Venus Enterprises Logo",
+    "width": 100,
+    "height": 100
+  },
+  "companyName": "Venus Enterprises",
+  "location": "Coimbatore, Tamil Nadu",
+  "gstNo": "GST No: 33EWJPM9632M1ZV",
+  "contact": {
+    "phoneLabel": "",
+    "phoneNumber": " 09600756094",
+    "emailLabel": "SEND EMAIL",
+    "emailAddress": "sales@venusenterprises.com"
+  }
+}

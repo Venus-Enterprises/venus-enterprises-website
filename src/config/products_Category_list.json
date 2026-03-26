@@ -1,0 +1,229 @@
+{
+  "categories": [
+    {
+      "name": "Alcohol based solvents",
+      "products": [
+        {
+          "name": "Ethanol",
+          "image": "/media/products/category_list_images/Alcohol based solvents/ethanol.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "ISO-Butanol",
+          "image": "/media/products/category_list_images/Alcohol based solvents/ISO-Butanol.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Isopropyl Alcohol (IPA)",
+          "image": "/media/products/category_list_images/Alcohol based solvents/Isopropyl alcohol (IPA).jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Methanol",
+          "image": "/media/products/category_list_images/Alcohol based solvents/methanol.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "N-Butanol",
+          "image": "/media/products/category_list_images/Alcohol based solvents/n-butanol.jpg",
+          "availability": "In Stock"
+        }
+      ]
+    },
+    {
+      "name": "Aliphatic Hydrocarbon",
+      "products": [
+        {
+          "name": "Heptane",
+          "image": "/media/products/category_list_images/Aliphatic Hydrocarbon/Heptane.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Hexane",
+          "image": "/media/products/category_list_images/Aliphatic Hydrocarbon/Hexane.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Mineral Spirits",
+          "image": "/media/products/category_list_images/Aliphatic Hydrocarbon/Mineral Spirits.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Naphtha",
+          "image": "/media/products/category_list_images/Aliphatic Hydrocarbon/Naphtha.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Petroleum Ether",
+          "image": "/media/products/category_list_images/Aliphatic Hydrocarbon/Petroleum Ether.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Aliphatic Solvents",
+          "image": "/media/products/category_list_images/Aliphatic Hydrocarbon/solvents.jpg",
+          "availability": "In Stock"
+        }
+      ]
+    },
+    {
+      "name": "Aromatic Hydrocarbon",
+      "products": [
+        {
+          "name": "Benzene",
+          "image": "/media/products/category_list_images/Aromatic Hydrocarbon/Benzene.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Ethylbenzene",
+          "image": "/media/products/category_list_images/Aromatic Hydrocarbon/Ethylbenzene.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Solvent",
+          "image": "/media/products/category_list_images/Aromatic Hydrocarbon/Solvent.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Toluene",
+          "image": "/media/products/category_list_images/Aromatic Hydrocarbon/Toluene.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Xylene",
+          "image": "/media/products/category_list_images/Aromatic Hydrocarbon/Xylene.jpg",
+          "availability": "In Stock"
+        }
+      ]
+    },
+    {
+      "name": "Chlorinated Solvents",
+      "products": [
+        {
+          "name": "Carbon Tetrachloride",
+          "image": "/media/products/category_list_images/Chlorinated Solvents/Carbon Tetrachloride.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Chloroform",
+          "image": "/media/products/category_list_images/Chlorinated Solvents/Chloroform.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Dichloromethane",
+          "image": "/media/products/category_list_images/Chlorinated Solvents/Dichloromethane.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Perchloroethylene",
+          "image": "/media/products/category_list_images/Chlorinated Solvents/Perchloroethylene.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Trichloroethylene",
+          "image": "/media/products/category_list_images/Chlorinated Solvents/Trichloroethylene.jpg",
+          "availability": "In Stock"
+        }
+      ]
+    },
+    {
+      "name": "Ester Solvents",
+      "products": [
+        {
+          "name": "Amyl Acetate",
+          "image": "/media/products/category_list_images/Ester Solvents/Amyl Acetate.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Butyl Acetate",
+          "image": "/media/products/category_list_images/Ester Solvents/Butyl Acetate.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Ethyl Acetate",
+          "image": "/media/products/category_list_images/Ester Solvents/Ethyl Acetate.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Isopropyl Acetate",
+          "image": "/media/products/category_list_images/Ester Solvents/Isopropyl Acetate.jpg",
+          "availability": "In Stock"
+        }
+      ]
+    },
+    {
+      "name": "Glycol Ether Solvents",
+      "products": [
+        {
+          "name": "Butyl Glycol",
+          "image": "/media/products/category_list_images/Glycol Ether Solvents/Butyl Glycol.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Propylene Glycol Ether Acetate",
+          "image": "/media/products/category_list_images/Glycol Ether Solvents/Propylene Glycol Ether Acetate.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Propylene Glycol Methyl Ether",
+          "image": "/media/products/category_list_images/Glycol Ether Solvents/Propylene Glycol Methyl Ether.jpg",
+          "availability": "In Stock"
+        }
+      ]
+    },
+    {
+      "name": "Ketone Solvents",
+      "products": [
+        {
+          "name": "Acetone",
+          "image": "/media/products/category_list_images/Ketone Solvents/Acetone .jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Cyclohexanone",
+          "image": "/media/products/category_list_images/Ketone Solvents/Cyclohexanone.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "MEK",
+          "image": "/media/products/category_list_images/Ketone Solvents/MEK.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Methyl Isobutyl Ketone (MIBK)",
+          "image": "/media/products/category_list_images/Ketone Solvents/Methyl Isobutyl Ketone(MIBK).jpg",
+          "availability": "In Stock"
+        }
+      ]
+    },
+    {
+      "name": "Other Industrial Solvents",
+      "products": [
+        {
+          "name": "Dimethyl Formamide",
+          "image": "/media/products/category_list_images/Other Industrial Solvents/Dimethyl Formamide .jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Dimethyl Sulfoxide",
+          "image": "/media/products/category_list_images/Other Industrial Solvents/Dimethyl Sulfoxide .jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Dioxane",
+          "image": "/media/products/category_list_images/Other Industrial Solvents/Dioxane.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Tetrahydrofuran",
+          "image": "/media/products/category_list_images/Other Industrial Solvents/Tetrahydrofuran.jpg",
+          "availability": "In Stock"
+        },
+        {
+          "name": "Turpentine",
+          "image": "/media/products/category_list_images/Other Industrial Solvents/Turpentine.jpg",
+          "availability": "In Stock"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "logo": {
+      "src": "/media/header/logo.png",
+      "alt": "Venus Enterprises Logo",
+      "width": 78,
+      "height": 78
+    },
+    "companyName": "Venus Enterprises",
+    "tagline": "Trader - Wholesaler/Distributor",
+    "summary": "We are a leading trader of a wide range of chemical products."
+  },
+
+  "contact": {
+    "address": "98/84, A2, Anna Nagar, Peelamedu, Coimbatore - 641004, Tamil Nadu, India",
+    "phone": "08047631423",
+    "email": "sales@venusenterprises.com",
+    "mapUrl": "https://maps.app.goo.gl/hA8oj6Hr96X29yAn6"
+  },
+
+  "quickLinks": {
+    "title": "Quick Links",
+    "links": [
+      { "label": "About Us", "href": "/about-us" },
+      { "label": "Our Products", "href": "/products" },
+      { "label": "Contact Us", "href": "/contact-us" }
+    ]
+  },
+
+  "policyLinks": {
+    "links": [
+      { "label": "Privacy Policy", "href": "/privacy-policy" },
+      { "label": "Cookie Policy", "href": "/cookie-policy" },
+      { "label": "Accessibility", "href": "/accessibility" },
+      { "label": "Disclaimer", "href": "/disclaimer" },
+      { "label": "Security", "href": "/security" }
+    ]
+  },
+
+  "businessInfo": {
+    "title": "Business Info",
+    "items": [
+      { "label": "Nature of Business", "value": "Trader - Wholesaler/Distributor" },
+      { "label": "GST No.", "value": "XXABCDE1234X1Z5" }
+    ]
+  },
+
+  "bottomBar": {
+    "copyright": "© {year} Venus Enterprises. All rights reserved.",
+    "note": "Made for Venus Enterprises"
+  }
+}

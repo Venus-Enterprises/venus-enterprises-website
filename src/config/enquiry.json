@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "backgroundColor": "#eef2f6",
+  "cardBackgroundColor": "#1E3A8A",
+  "heading": "Tell us what you need",
+  "apiEndpoint": "/api/enquiry",
+  "successMessage": "Thanks! We received your enquiry. We will contact you shortly.",
+  "errorMessage": "Sorry, we could not send your enquiry now. Please try again.",
+  "submittingText": "Sending...",
+  "formType": "quick_enquiry",
+  "submitButton": {
+    "text": "Send Enquiry"
+  },
+  "fields": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Enter your name",
+      "requiredMessage": "Name is required."
+    },
+    "message": {
+      "label": "Requirement",
+      "placeholder": "Kindly describe your requirement",
+      "requiredMessage": "Requirement is required."
+    }
+  },
+  "emailContent": {
+    "subject": "Website Quick Enquiry",
+    "title": "New Quick Enquiry Received",
+    "intro": "A visitor submitted a quick enquiry from the website.",
+    "fieldLabels": {
+      "name": "Name",
+      "message": "Requirement",
+      "source": "Source"
+    },
+    "sourceLabelValue": "Quick Enquiry Block"
+  }
+}

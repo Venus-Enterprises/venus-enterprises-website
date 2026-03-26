@@ -1,0 +1,393 @@
+.wrapper {
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* LEFT PANEL */
+.leftPanel {
+  position: relative;
+  color: #fff;
+  padding: 18px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  overflow: hidden;
+
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.leftPanel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(10, 20, 35, 0.65), rgba(10, 20, 35, 0.65)),
+    var(--hero-left-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.leftPanel > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* NAV */
+.navLinks {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  opacity: 0.92;
+}
+
+.navLink:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Company Info */
+.companyBox {
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  padding-top: 10px;
+  gap: 18px;
+}
+
+.companyTitle {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-bottom: 18px;
+}
+
+.companyGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px 22px;
+  margin-bottom: 14px;
+}
+
+.companyItem {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.companyIcon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.companyText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.companyItemLabel {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.15px;
+}
+
+.companyItemValue {
+  font-size: 15px;
+  color: #d6d6d6;
+  font-weight: 500;
+  opacity: 0.92;
+  line-height: 1.35;
+}
+
+.addressRow {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.addressText {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.addressLabel {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.15px;
+}
+
+.addressValue {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.92;
+  line-height: 1.5;
+}
+
+.mapLink {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #4da3ff;
+  opacity: 0.95;
+  letter-spacing: 0.1px;
+}
+
+.mapLink:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.companySummary {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  opacity: 0.92;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.readMore {
+  font-weight: 700;
+  color: #4da3ff;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+/* RIGHT PANEL */
+.rightPanel {
+  position: relative;
+  padding: 18px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: visible;
+}
+
+.rightPanel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(20, 30, 50, 0.55), rgba(20, 30, 50, 0.55)),
+    var(--hero-right-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.rightPanel > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Search */
+.searchRow {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 50;
+}
+
+.searchBox {
+  width: 320px;
+  max-width: 100%;
+  height: 38px;
+  border-radius: 4px;
+  border: 0;
+  padding: 0 12px;
+  outline: none;
+}
+
+/* BIG SLIDER */
+.bigSlider {
+  flex: 1;
+  position: relative;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.bigSliderInner {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 44px;
+  align-items: center;
+  max-width: 700px;
+  padding-right: 220px;
+  box-sizing: border-box;
+}
+
+/* Dots */
+.dots {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #6b7280;
+  border: 0;
+  cursor: pointer;
+}
+
+.dotActive {
+  background: #1d4ed8;
+}
+
+/* Meta row */
+.bigMetaRow {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding-right: 240px;
+  box-sizing: border-box;
+}
+
+.bigMetaLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bigTitle {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bigSubtitle {
+  color: #93c5fd;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.bigPrice {
+  color: #d1d5db;
+  font-size: 13px;
+}
+
+.bigCta {
+  height: 34px;
+  padding: 0 14px;
+  border-radius: 4px;
+  background: #1d4ed8;
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  border: 0;
+  cursor: pointer;
+}
+
+/* Reels Style Vertical Slider */
+.sliderViewport {
+  width: 100%;
+  max-width: 450px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sliderTrack {
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+  transition: transform 1.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.slide {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bigImage {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+.noTransition {
+  transition: none !important;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr !important;
+    height: auto;
+  }
+
+  .searchRow {
+    justify-content: flex-start;
+  }
+
+  .companyGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .bigSliderInner,
+  .bigMetaRow {
+    max-width: 92%;
+  }
+
+  .sliderViewport {
+    height: 260px;
+  }
+
+  .slide {
+    height: 260px;
+  }
+}

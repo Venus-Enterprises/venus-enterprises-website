@@ -1,0 +1,65 @@
+{
+  "layout": { "leftPercent": 50, "rightPercent": 50 },
+
+  "backgrounds": {
+    "leftImage": "/media/products/hero_images/hero-bg1.jpg",
+    "rightImage": "/media/products/hero_images/hero-bg2.jpg"
+  },
+
+  "leftNav": {
+    "links": [
+      { "label": "About Us", "href": "/about-us" },
+      { "label": "Our Products", "href": "/products" },
+      { "label": "Contact Us", "href": "/contact-us" }
+    ]
+  },
+
+  "companyInfo": {
+    "title": "About Company",
+    "items": [
+      { "label": "Nature of Business", "value": "Trader - Wholesaler" },
+      { "label": "Legal Status of Firm", "value": "Proprietorship " },
+      { "label": "GST Registration Date", "value": "14-06-2020" },
+      { "label": "GST No.", "value": "33EWJPM9632M1ZV" }
+    ],
+    "address": "98/84, A2, Anna Nagar, Peelamedu,Coimbatore - 641004, Tamil Nadu, India",
+    "mapUrl": "https://maps.app.goo.gl/hA8oj6Hr96X29yAn6",
+    "summary": "We supply high-quality industrial and specialty chemicals with trusted service and consistent standards across India."
+  },
+
+  "rightPanel": {
+    "search": { "placeholder": "Search products..." },
+    "slider": {
+      "items": [
+        {
+          "title": "Ethanol",
+          "image": "/media/products/hero_slider/Ethanol.jpg"
+        },
+        {
+          "title": "Butyl Acetate",
+          "image": "/media/products/hero_slider/Butyl Acetate.jpg"
+        },
+        {
+          "title": "Dimethyl Formamide",
+          "image": "/media/products/hero_slider/Dimethyl Formamide.jpg"
+        },
+        {
+          "title": "Methyl Ethyl Ketone",
+          "image": "/media/products/hero_slider/MEK.jpg"
+        },
+        {
+          "title": "Naphtha",
+          "image": "/media/products/hero_slider/Naphtha.jpg"
+        },
+        {
+          "title": "Toluene",
+          "image": "/media/products/hero_slider/Toluene.jpg"
+        },
+        {
+          "title": "Perchloroethylene",
+          "image": "/media/products/hero_slider/Perchloroethylene.jpg"
+        }
+      ]
+    }
+  }
+}

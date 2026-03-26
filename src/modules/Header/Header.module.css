@@ -1,0 +1,130 @@
+.wrapper {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.container {
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 35px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.brandText {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+
+.companyName {
+  font-weight: 700;
+  font-size: 18px;
+  color: #111;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 15px;
+  line-height: 1.2;
+  flex-wrap: wrap;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pillBtnDark,
+.pillBtnBlue {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  padding: 0 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  border: 1px solid transparent;
+  transition: opacity 160ms ease;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.pillBtnDark {
+  background: #2b2b2b;
+  color: #fff;
+}
+
+.pillBtnBlue {
+  background: #1d4ed8;
+  color: #fff;
+}
+
+.pillBtnDark:hover,
+.pillBtnBlue:hover {
+  opacity: 0.92;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    padding: 14px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .pillBtnDark,
+  .pillBtnBlue {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.metaItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.separator {
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.gstText {
+  font-size: 13px;
+  color: #333;
+  font-weight: 500;
+}

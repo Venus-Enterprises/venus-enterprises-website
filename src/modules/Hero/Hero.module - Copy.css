@@ -1,0 +1,371 @@
+.wrapper {
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  height: 500px; /* keep as you set */
+}
+
+/* LEFT PANEL */
+.leftPanel {
+  background: #0b0b0b;
+  color: #fff;
+  padding: 18px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  
+
+  /* ✅ FONT POLISH (left panel only) */
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* NAV */
+.navLinks {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none;
+
+  /* ✅ FONT POLISH */
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  opacity: 0.92;
+}
+
+.navLink:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Company Info */
+.companyBox {
+  width: 100%;
+  background: transparent; /* IMPORTANT: no blue box */
+  color: #ffffff;
+  padding-top: 10px;
+  gap: 18px;  
+}
+
+.companyTitle {
+  /* ✅ FONT POLISH */
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+
+  margin-bottom: 12px;
+}
+
+/* 2-column grid (Row-1 + Row-2) */
+.companyGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* ✅ 2 columns as requested */
+  gap: 14px 22px;
+  margin-bottom: 14px;
+}
+
+.companyItem {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.companyIcon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  /* ✅ FONT POLISH */
+  font-size: 11px;
+  font-weight: 700;
+
+  margin-top: 2px;
+}
+
+.companyText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.companyItemLabel {
+  /* ✅ FONT POLISH */
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.15px;
+}
+
+.companyItemValue {
+  /* ✅ FONT POLISH */
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.92;
+  line-height: 1.35;
+}
+
+/* Address Row (Row-3) */
+.addressRow {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.addressText {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.addressLabel {
+  /* ✅ FONT POLISH */
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.15px;
+}
+
+.addressValue {
+  /* ✅ FONT POLISH */
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.92;
+  line-height: 1.5;
+}
+
+.mapLink {
+  display: inline-block;
+
+  /* ✅ FONT POLISH */
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #4da3ff;
+  opacity: 0.95;
+  letter-spacing: 0.1px;
+}
+
+.mapLink:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Summary Row (Row-4) */
+.companySummary {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.55;
+  opacity: 0.92;
+  margin-top: 22px;   /* increase if currently small */
+  margin-bottom: 20px;  /* increase from current */
+
+  /* ✅ limit summary to 2 lines */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.readMore {
+  /* ✅ FONT POLISH */
+  font-weight: 700;
+
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+/* RIGHT PANEL */
+.rightPanel {
+  background: #2b2b2b;
+  padding: 18px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Search */
+.searchRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.searchBox {
+  width: 320px;
+  max-width: 100%;
+  height: 38px;
+  border-radius: 4px;
+  border: 0;
+  padding: 0 12px;
+  outline: none;
+}
+
+/* BIG SLIDER */
+.bigSlider {
+  flex: 1;
+  background: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.bigSliderInner {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 44px; /* image + dots */
+  align-items: center;
+  max-width: 520px;
+}
+
+/* Dots */
+.dots {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #6b7280;
+  border: 0;
+  cursor: pointer;
+}
+
+.dotActive {
+  background: #1d4ed8;
+}
+
+/* Meta row */
+.bigMetaRow {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.bigMetaLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bigTitle {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bigSubtitle {
+  color: #93c5fd;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.bigPrice {
+  color: #d1d5db;
+  font-size: 13px;
+}
+
+.bigCta {
+  height: 34px;
+  padding: 0 14px;
+  border-radius: 4px;
+  background: #1d4ed8;
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  border: 0;
+  cursor: pointer;
+}
+
+/* ============================= */
+/* Reels Style Vertical Slider */
+/* ============================= */
+
+.sliderViewport {
+  width: 100%;
+  max-width: 450px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sliderTrack {
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+  transition: transform 1.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.slide {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bigImage {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+.noTransition {
+  transition: none !important;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr !important;
+    height: auto;
+  }
+
+  .searchRow {
+    justify-content: flex-start;
+  }
+
+  .companyGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .bigSliderInner,
+  .bigMetaRow {
+    max-width: 92%;
+  }
+
+  .sliderViewport {
+    height: 260px;
+  }
+
+  .slide {
+    height: 260px;
+  }
+}

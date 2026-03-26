@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Alcohol based solvents",
+    "slug": "Alcohol based solvents",
+    "imageUrl": "/media/products/Product_category_mainpage/Alcohol.jpg"
+  },
+  {
+    "name": "Aliphatic Hydrocarbon",
+    "slug": "Aliphatic Hydrocarbon",
+    "imageUrl": "/media/products/Product_category_mainpage/Aliphatic Hydrocarbon.jpg"
+  },
+  {
+    "name": "Aromatic Hydrocarbon",
+    "slug": "Aromatic Hydrocarbon",
+    "imageUrl": "/media/products/Product_category_mainpage/Aromatic_Solvents.jpg"
+  },
+  {
+    "name": "Chlorinated Solvents",
+    "slug": "Chlorinated Solvents",
+    "imageUrl": "/media/products/Product_category_mainpage/Chlorinated_Solvents.jpg"
+  },
+  {
+    "name": "Ester Solvents",
+    "slug": "Ester Solvents",
+    "imageUrl": "/media/products/Product_category_mainpage/Ester Solvents.jpg"
+  },
+   {
+    "name": "Glycol Ether Solvents",
+    "slug": "Glycol Ether Solvents",
+    "imageUrl": "/media/products/Product_category_mainpage/Glycol Ether Solvents.jpg"
+  },
+   {
+    "name": "Ketone Solvents",
+    "slug": "Ketone Solvents",
+    "imageUrl": "/media/products/Product_category_mainpage/Ketone Solvents.jpg"
+  },
+  {
+    "name": "Other Industrial Solvents",
+    "slug": "Other Industrial Solvents",
+    "imageUrl": "/media/products/Product_category_mainpage/Other Industrial Solvents.jpg"
+  }
+]

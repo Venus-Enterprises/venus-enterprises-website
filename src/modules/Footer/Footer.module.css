@@ -1,0 +1,124 @@
+/* ✅ Hard-stop horizontal scroll globally (no logic changes) */
+:global(html),
+:global(body) {
+  overflow-x: hidden;
+}
+
+/* ✅ IMPORTANT: dot added => .wrapper */
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background: radial-gradient(
+      1200px 120px at 50% 0%,
+      rgba(255, 255, 255, 0.06),
+      rgba(0, 0, 0, 0)
+    ),
+    linear-gradient(180deg, #0a0a0a, #000000);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 22px 32px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 18px;
+}
+
+/* ✅ Prevent grid overflow issues */
+.left,
+.center,
+.right {
+  min-width: 0;
+}
+
+/* LEFT */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-self: start;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+  display: block;
+}
+
+.copy {
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.92);
+  white-space: nowrap;
+}
+
+/* CENTER */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+/* RIGHT */
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-self: end;
+  gap: 18px;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  max-width: 100%;
+}
+
+/* LINKS */
+.link {
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.86);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    gap: 14px;
+    padding: 20px 16px;
+  }
+
+  .copy {
+    white-space: normal;
+  }
+
+  .center,
+  .right {
+    justify-content: center;
+  }
+}

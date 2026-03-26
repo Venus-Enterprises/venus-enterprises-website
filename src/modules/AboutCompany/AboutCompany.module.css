@@ -1,0 +1,203 @@
+.page {
+  background: #ffffff;
+  padding: 10px 0 30px;
+}
+
+.container {
+  width: 100%;
+  padding: 20px 15px 30px 15px;
+}
+
+/* ---------- BREADCRUMB ---------- */
+
+.breadcrumbWrap {
+  background: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 6px 0;
+  margin-bottom: 12px;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  color: #444;
+  padding-left: 15px;
+}
+
+.breadcrumb a {
+  color: #0b57d0;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- HEADER ---------- */
+
+.header {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  line-height: 1.15;
+}
+
+.desc {
+  margin: 0;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+  max-width: 1200px;
+}
+
+/* ---------- FACTSHEET ---------- */
+
+.section {
+  margin-top: 16px;
+}
+
+.sectionTitleWrap {
+  background: #efefef;
+  border: 1px solid #e6e6e6;
+  padding: 8px 10px;
+  margin-top: 14px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  color: #111;
+}
+
+.subTitle {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #111;
+  margin: 12px 0 8px;
+}
+
+.tableWrap {
+  border: 1px solid #e5e5e5;
+  border-top: 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.tdLabel {
+  width: 35%;
+  padding: 9px 12px;
+  font-size: 14px;
+  color: #333;
+  background: #f7f7f7;
+  border-top: 1px solid #ededed;
+  vertical-align: top;
+}
+
+.tdValue {
+  width: 65%;
+  padding: 9px 12px;
+  font-size: 14px;
+  color: #111;
+  border-top: 1px solid #ededed;
+  vertical-align: top;
+}
+
+/* ---------- SECTIONS AFTER FACTSHEET (4 blocks) ---------- */
+
+.longSection {
+  background: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 18px 15px;
+  margin-top: 18px;
+}
+
+.longTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.longSectionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0b57d0;
+  margin: 0;
+}
+
+.longSectionDesc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0 0 12px;
+}
+
+.bulletsTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 8px;
+}
+
+.bullets {
+  margin: 0 0 16px 18px;
+  padding: 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.ctaRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.ctaLabel {
+  font-size: 14px;
+  color: #555;
+}
+
+.ctaButton {
+  display: inline-block;
+  background: #175a88;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ctaButton:hover {
+  opacity: 0.95;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 900px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .tdLabel,
+  .tdValue {
+    font-size: 13px;
+  }
+
+  .longSectionTitle {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "homepagePreview": {
+    "title": "Our Products",
+    "subtitle": "We are engaged in offering a wide range of industrial and specialty chemicals.",
+    "viewAllLabel": "View All Products",
+    "viewAllHref": "/products",
+    "maxCategories": 7
+  },
+  "categories": [
+    {
+      "name": "Alcohol based solvents",
+      "slug": "Alcohol based solvents",
+      "image": "/media/products/Product_category_mainpage/Alcohol.jpg"
+    },
+    {
+      "name": "Aliphatic Hydrocarbon",
+      "slug": "Aliphatic Hydrocarbon",
+      "image": "/media/products/Product_category_mainpage/Aliphatic Hydrocarbon.jpg"
+    },
+    {
+      "name": "Aromatic Hydrocarbon",
+      "slug": "Aromatic Hydrocarbon",
+      "image": "/media/products/Product_category_mainpage/Aromatic_Solvents.jpg"
+    },
+    {
+      "name": "Chlorinated Solvents",
+      "slug": "Chlorinated Solvents",
+      "image": "/media/products/Product_category_mainpage/Chlorinated_Solvents.jpg"
+    },
+    {
+      "name": "Ester Solvents",
+      "slug": "Ester Solvents",
+      "image": "/media/products/Product_category_mainpage/Ester Solvents.jpg"
+    },
+    {
+      "name": "Glycol Ether Solvents",
+      "slug": "Glycol Ether Solvents",
+      "image": "/media/products/Product_category_mainpage/Glycol Ether Solvents.jpg"
+    }
+  ]
+}

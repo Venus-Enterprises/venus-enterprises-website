@@ -1,0 +1,75 @@
+{
+  "pageTitle": "Contact Us",
+  "pageDescription": "Reach out to us for product enquiries, quotes, or any business requirements.",
+  "apiEndpoint": "/api/enquiry",
+  "successMessage": "Thanks! Your message has been sent successfully. We will contact you shortly.",
+  "errorMessage": "Sorry, we could not send your message now. Please try again.",
+  "submittingText": "Sending...",
+  "formType": "contact_message",
+  "breadcrumb": {
+    "items": [
+      { "label": "Home", "href": "/" },
+      { "label": "Contact Us", "href": "/contact-us" }
+    ]
+  },
+  "contactDetails": {
+    "heading": "Contact Details",
+    "phoneLabel": "Phone",
+    "phone": "+91 08047631423",
+    "emailLabel": "Email",
+    "email": "info@venusenterprises.in",
+    "addressLabel": "Address",
+    "companyName": "Venus Enterprises",
+    "addressLines": [
+      "98/84, A2, Anna Nagar, Peelamedu",
+      "Coimbatore, Tamil Nadu, India"
+    ],
+    "directionText": "Get Direction",
+    "directionUrl": "https://maps.app.goo.gl/hA8oj6Hr96X29yAn6"
+  },
+  "form": {
+    "heading": "Send us a message",
+    "submitText": "Send Message",
+    "fields": {
+      "fullName": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "requiredMessage": "Full name is required."
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "Enter your phone number",
+        "requiredMessage": "Phone number is required.",
+        "invalidMessage": "Please enter a valid phone number."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email address",
+        "requiredMessage": "Email is required.",
+        "invalidMessage": "Please enter a valid email address."
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Type your message",
+        "requiredMessage": "Message is required."
+      }
+    }
+  },
+  "emailContent": {
+    "subject": "Website Contact Message",
+    "title": "New Contact Message Received",
+    "intro": "A visitor submitted the contact form from the website.",
+    "fieldLabels": {
+      "fullName": "Full Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "source": "Source"
+    },
+    "sourceLabelValue": "Contact Us Page"
+  },
+  "map": {
+    "heading": "Our Location",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d123363.39621839562!2d76.8486082!3d11.0162316!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8598a6f6374a5%3A0xbb9bbdcf93e16b6!2sVENUS%20ENTERPRISES!5e1!3m2!1sen!2sin!4v1772460848255!5m2!1sen!2sin"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "intro": {
+    "title": "About Us",
+    "description": "Incorporated in the year 19XX, Venus Enterprises is engaged in offering a wide range of industrial and specialty chemicals. (Placeholder text — replace later with your final company intro.)"
+  },
+
+  "factsheet": {
+    "sectionTitle": "Company Factsheet",
+    "subTitle": "Basic Information",
+    "rows": [
+      { "label": "Nature of Business", "value": "Trader / Wholesaler / Distributor (Placeholder)" },
+      { "label": "Additional Business", "value": "Wholesale Business / Retail Business (Placeholder)" },
+      { "label": "Company CEO", "value": "Name (Placeholder)" },
+      { "label": "Registered Address", "value": "Address (Placeholder)" },
+      { "label": "Total Number of Employees", "value": "Up to XX People (Placeholder)" },
+      { "label": "GST Registration Date", "value": "DD-MM-YYYY (Placeholder)" },
+      { "label": "Legal Status of Firm", "value": "Partnership / Proprietorship (Placeholder)" },
+      { "label": "Annual Turnover", "value": "₹X–₹Y Cr (Placeholder)" },
+      { "label": "GST Partner Name", "value": "Name(s) (Placeholder)" }
+    ]
+  },
+
+  "infrastructure": {
+    "sectionTitle": "Infrastructure",
+    "rows": [
+      { "label": "Location Type", "value": "URBAN (Placeholder)" },
+      { "label": "Building Infrastructure", "value": "Permanent (Placeholder)" },
+      { "label": "Size of Premises", "value": "XXXX sq ft (Placeholder)" },
+      { "label": "Space Around", "value": "Front porch / Yard (Placeholder)" }
+    ]
+  },
+
+  "statutoryProfile": {
+    "sectionTitle": "Statutory Profile",
+    "rows": [
+      { "label": "TAN No.", "value": "XXXXXXXXXX (Placeholder)" },
+      { "label": "Banker", "value": "Bank list (Placeholder)" },
+      { "label": "GST No.", "value": "XXXXXXXXXXXXXXX (Placeholder)" }
+    ]
+  }
+}

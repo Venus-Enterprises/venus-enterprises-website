@@ -1,0 +1,94 @@
+{
+  "breadcrumb": {
+    "items": [
+      { "label": "Home", "href": "/" },
+      { "label": "About Us", "href": "/about-us" }
+    ]
+  },
+  "pageTitle": "About Us",
+  "introText": "Incorporated in the year 2019, Venus Enterprises is engaged in offering a wide range of industrial and specialty chemicals.",
+
+  "factsheetTitle": "Company Factsheet",
+
+  "factsheetSections": [
+    {
+      "id": "basicInformation",
+      "title": "Basic Information",
+      "rows": [
+        { "label": "Nature of Business", "value": "Trader / Wholesaler / Retailer" },
+        { "label": "Additional Business", "value": "Wholesale Business" },
+        { "label": "Company CEO", "value": "Mohan Raj" },
+        { "label": "Registered Address", "value": "98/84, A2, Anna Nagar, Peelamedu,Coimbatore - 641004, Tamil Nadu, India" },
+        { "label": "Total Number of Employees", "value": "Upto 10 People" },
+        { "label": "GST Registration Date", "value": "14-06-2020" },
+        { "label": "Legal Status of Firm", "value": "Proprietorship" },
+        { "label": "GST No.", "value": "33EWJPM9632M1ZV" },
+        { "label": "Annual Turnover", "value": "50Cr" }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "title": "Infrastructure",
+      "rows": [
+        { "label": "Location Type", "value": "URBAN" },
+        { "label": "Building Infrastructure", "value": "Permanent" },
+        { "label": "Size of Premises", "value": "10000 sq ft (Placeholder)" }
+      ]
+    }
+  ],
+
+  "sectionsAfterFactsheet": [
+    {
+      "id": "ourTeam",
+      "title": "Our Team",
+      "bulletsTitle": "Our team includes:",
+      "bullets": ["Chemists", "Quality controllers", "Sales and marketing experts", "Skilled workforce"],
+      "ctaLabel": "For more Information:",
+      "ctaButtonText": "Contact Us",
+      "ctaLink": "/contact-us"
+    },
+    {
+      "id": "clientSatisfaction",
+      "title": "Client Satisfaction",
+      "bulletsTitle": "Key factors that make us a preferred business partner include:",
+      "bullets": [
+        "Customer-centric approach",
+        "Affordable price range",
+        "Transparent business dealings",
+        "Healthy and fair trade affair",
+        "Professionalism"
+      ],
+      "ctaLabel": "For more Information:",
+      "ctaButtonText": "Contact Us",
+      "ctaLink": "/contact-us"
+    },
+    {
+      "id": "ourInfrastructure",
+      "title": "Our Infrastructure",
+      "bulletsTitle": "The departments that together form our infrastructure set-up are as follows:",
+      "bullets": ["Quality testing unit", "Warehousing unit", "Packaging unit", "R&D unit", "Logistics unit", "Sales & marketing wing"],
+      "ctaLabel": "For more Information:",
+      "ctaButtonText": "Contact Us",
+      "ctaLink": "/contact-us"
+    },
+    {
+      "id": "whyUs",
+      "title": "Why Us?",
+      "bulletsTitle": "Following are some of the prominent factors that contribute to our success and reputation:",
+      "bullets": [
+        "Quality product line",
+        "Adherence to accurate scientific formulation",
+        "Strong infrastructural backing",
+        "Support of efficient workforce",
+        "Timely delivery",
+        "Economic packaging",
+        "Customization facility",
+        "Ethical business principles",
+        "Customer-centric approach"
+      ],
+      "ctaLabel": "For more Information:",
+      "ctaButtonText": "Contact Us",
+      "ctaLink": "/contact-us"
+    }
+  ]
+}
