@@ -2,7 +2,7 @@ import styles from "./FloatingWhatsApp.module.css";
 
 export default function FloatingWhatsApp() {
 
-  const phoneNumber = "+919600756094";
+  const phoneNumber = "+919994488293";
   const message = "Hello, I would like to know more about your products.";
 
   const whatsappLink =
